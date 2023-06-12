@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.fondoAtras{
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.form-content{
+    position: fixed;
+    display: flex;
+    box-shadow: 0 0 20px rgb(75, 199, 212, 0.7);
+    border-radius: 25px;
+    width: 900px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+}
+
+form{
+    width: 50%;
+    padding: 50px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+form h2{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 35px;
+
+}
+
+.group-container{
+    position: relative;
+}
+
+.group-container > i{
+    color: #4DD9EC;
+    position: absolute;
+    font-size: 22px;
+    top: 15px;
+    left: 28px;
+
+}
+
+.group-container > input{
+    padding: 20px 5px 20px 50px;
+    width: 95%;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    border: 1px solid #4DD9EC;
+    box-shadow: 0 0 20px rgba(86, 226, 241, 0.4);
+    outline: none;/*para que la letra no salga con el negro de defecto*/
+    color: #4EAFFD;/*poner color a la letra dentro de los botones*/ 
+}
+
+::placeholder{
+    color: #4EAFFD;/*color para las letras que estan de indicadoras*/
+
+}
+
+form a{ /*para los terminos y condiciones*/
+    display: block;
+    font-size: 18px;
+    color: #4EAFFD;
+    margin-bottom: 25px; /*para poner una separacion abajo*/
+    text-decoration: none;/*para quitar la linea*/
+
+}
+
+
+.welcome{
+    width: 50%;/*para que solo tome la mitad del div principal*/
+    text-align: center;
+    border-radius: 0 25px 25px 0;
+    padding: 28px; /*para que se entre y no quede cabal en la linea*/
+    background:transparent;/*esto nos ayuda a hacer un degradado*/
+
+}
+
+.welcome h2{
+    margin: 90px 0  25px 0;
+    color: white;
+    font-size: 50px;
+
+}
+
+
+.welcome p{
+    color: white;
+    font-size: 20px;
+}
+
+.btn{
+    padding: 10px 70px;/*para el boton enviar*/
+    color: white;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;/*al pasar el raton aparecera la mano*/
+    border: 0;
+    box-shadow: 0 0 20px rgba(86,226,241,0.5);
+    background: linear-gradient(
+        180deg, 
+        rgba(91,238,254,1) 1%,
+        rgb(49, 145, 224) 99%
+    );/*esto nos ayuda a hacer un degradado*/
+    border-radius: 25px;
+    font-size: 20px;
+
+
+}
+
+/* ---------------------------------------------------------------- */
+/* --------------------- CECULAR  --------------------------------- */
+
+@media(max-width:991px){
+
+    .form-content{
+        width: 100%;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    .welcome{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

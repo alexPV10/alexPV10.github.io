@@ -1,0 +1,266 @@
+/*************************************************************/
+/********************** FOOTER ******************************/
+
+.contactos{
+    width: 100%;
+    height: 400px;
+    background-color: #0894A9;
+    padding: 50px 64px;
+}
+
+.contact{
+    width: 100%;
+    height: 225px;
+    display: flex;
+}
+
+.cuadros{
+    width: 25%;
+    height: 100%;
+}
+
+h4{
+    color: white;
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.cuadros h4::before{
+    content: '';
+    position: absolute;
+    background: white;
+    height: 2px;
+    box-sizing: border-box;
+    margin-top: 32px;
+    width: 170px;
+ }
+
+.content{
+    width: 100%;
+    height: 91%;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.content i{
+    width: 25px;
+    height: 25px;
+    padding-left: 4px;
+    padding-top: 3px;
+    margin-right: 5px;
+}
+
+.fa-solid{
+    font-size: 19px;
+}
+
+.fa-brands{
+    font-size: 19px;
+}
+
+.content a{
+    color: white;
+    display: block;
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+
+.terminos{
+    width: 100%;
+    height: 45px;
+    margin-top: 50px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+small{
+    color: white;
+    font-size: 18px;
+    margin-left: 25%;
+
+}
+
+
+@media screen and (max-width: 952px){
+    small{
+        color: white;
+        font-size: 18px;
+        margin-left: 8%;
+    
+    }
+
+}
+
+@media screen and (max-width: 870px){
+
+    .contactos{
+        width: 100%;
+        height: 600px;
+        background-color: #0894A9;
+        padding: 30px 64px;
+    }
+    
+    .contact{
+        width: 100%;
+        height: 225px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .cuadros{
+        width: 50%;
+        height: 100%;
+    }
+
+    
+    h4{
+        color: white;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .cuadros h4::before{
+        content: '';
+        position: absolute;
+        background: white;
+        height: 2px;
+        box-sizing: border-box;
+        margin-top: 28px;
+        width: 125px;
+    }
+
+    .content{
+        width: 100%;
+        height: 80%;
+        padding-top: 4px;
+        padding-left: 25px;
+    }
+
+    .content i{
+        width: 25px;
+        height: 25px;
+        padding-left: 4px;
+        margin-right: 5px;
+    }
+
+    .fa-solid{
+        font-size: 16px;
+    }
+
+    .fa-brands{
+        font-size: 16px;
+    }
+
+    .content a{
+        color: white;
+        display: block;
+        font-size: 19px;
+        margin-top: 15px;
+
+    }
+
+    .terminos{
+        width: 100%;
+        height: 45px;
+        margin-top: 260px;
+        justify-content: center;
+        padding-top: 4px;
+        text-align: center;
+    }
+
+    small{
+        color: white;
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+
+}
+
+
+@media screen and (max-width: 500px){
+
+    .contactos{
+        width: 100%;
+        height: 600px;
+        padding: 30px 40px;
+    }
+    
+    .contact{
+        width: 100%;
+        height: 225px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .cuadros{
+        width: 50%;
+        height: 100%;
+    }
+
+    
+    h4{
+        color: white;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .cuadros h4::before{
+        content: '';
+        position: absolute;
+        background: white;
+        height: 2px;
+        box-sizing: border-box;
+        margin-top: 28px;
+        width: 125px;
+    }
+
+    .content{
+        width: 100%;
+        height: 80%;
+        padding-top: 4px;
+        padding-left: 25px;
+    }
+
+    .content i{
+        width: 25px;
+        height: 25px;
+        padding-left: 4px;
+        margin-right: 5px;
+    }
+
+    .fa-solid{
+        font-size: 16px;
+    }
+
+    .fa-brands{
+        font-size: 16px;
+    }
+
+    .content a{
+        color: white;
+        display: block;
+        font-size: 18px;
+        margin-top: 15px;
+
+    }
+
+    .terminos{
+        width: 100%;
+        height: 45px;
+        margin-top: 260px;
+        padding-top: 0px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    small{
+        color: white;
+        font-size: 15px;
+    }
+
+}

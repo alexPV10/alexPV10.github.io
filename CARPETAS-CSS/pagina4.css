@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Fenix&display=swap');
+/*************************************************************/
+/**************** CUARTA PAGINA******************************/
+
+#pgCuatro{
+    width: 100%;
+    height: calc( 120vh - 110px);
+}
+
+#pgCuatro h1{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 30px;
+}
+
+.paquetes{
+    width: 90%;
+    height: 420px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paque{
+    width: 28%;
+    height: 420px;
+    background-color: white;
+}
+
+.tema{
+    width: 100%;
+    height: 35px;
+}
+
+.tema h4{
+    font-family: 'Fenix', serif;
+    color: black;
+    font-size: 25px;
+    margin-left: 20%;
+}
+
+.fotopa{
+    width: 100%;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+.fotopa img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.infoPa{
+    width: 100%;
+    height: 205px;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 20px;
+}
+
+.infoPa p{
+    font-family: 'Fenix', serif;
+    font-size: 20px;
+}
+
+.paqueteB{
+    width: 100%;
+    height: 152px;
+}
+
+.btnP{
+    width: 20%;
+    height: 45px;
+    background-color: #0894A9;
+    color: white;
+    font-size: 20px;
+    font-family: 'Fenix', serif;
+    cursor: pointer;
+    border-color: transparent;
+    margin-top: 70px;
+    margin-left: 40%;
+}
+
+.btnP:hover{
+    color: #ffff;
+    background-color: #131c46;
+}
+
+@media screen and (max-width: 952px){
+    
+#pgCuatro{
+    width: 100%;
+    height: calc( 175vh - 110px);
+}
+
+.paquetes{
+    width: 90%;
+    height: 800px;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.paque{
+    width: 40%;
+    height: 385px;
+    background-color: white;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+}
+
+.infoPa{
+    width: 100%;
+    height: 170px;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 20px;
+}
+
+.paqueteB{
+    width: 100%;
+    height: 152px;
+}
+
+.btnP{
+    width: 20%;
+    height: 45px;
+    background-color: #0894A9;
+    color: white;
+    font-size: 20px;
+    font-family: 'Fenix', serif;
+    cursor: pointer;
+    border-color: transparent;
+    margin-top: 60px;
+    margin-left: 40%;
+}
+
+}
+
+
+
+/***************************/
+
+@media screen and (max-width: 750px){
+    
+    #pgCuatro{
+        width: 100%;
+        height: calc( 200vh - 110px);
+    }
+
+    .tema h4{
+        font-family: 'Fenix', serif;
+        color: black;
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    
+    .paquetes{
+        width: 90%;
+        height: 970px;
+        margin-left: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .paque{
+        width: 40%;
+        height: 440px;
+        background-color: white;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        
+    }
+    
+    .infoPa{
+        width: 100%;
+        height: 225px;
+        background-color: #F5F5F5;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .paqueteB{
+        width: 100%;
+        height: 152px;
+    }
+    
+    .btnP{
+        width: 20%;
+        height: 45px;
+        background-color: #0894A9;
+        color: white;
+        font-size: 20px;
+        font-family: 'Fenix', serif;
+        cursor: pointer;
+        border-color: transparent;
+        margin-top: 24px;
+        margin-left: 40%;
+    }
+    
+    }
+
+
+@media screen and (max-width: 500px){
+
+    #pgCuatro{
+        width: 100%;
+        height: calc( 240vh - 110px);
+    }
+
+    .paquetes{
+        width: 90%;
+        height: 1175px;
+        margin-left: 5%;
+        display: block;
+        justify-content: space-between;
+    }
+
+    .paque{
+        width: 90%;
+        height: 375px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 9%;
+    }
+
+        
+    .tema{
+        width: 100%;
+        height: 35px;
+    }
+
+    .tema h4{
+        font-family: 'Fenix', serif;
+        color: black;
+        font-size: 25px;
+        margin-left: 20%;
+    }
+
+    .fotopa{
+        width: 100%;
+        height: 160px;
+        margin-bottom: 20px;
+    }
+
+    .fotopa img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+.infoPa{
+    width: 100%;
+    height: 160px;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 20px;
+}
+
+.infoPa p{
+    font-family: 'Fenix', serif;
+    font-size: 20px;
+}
+
+
+.paqueteB{
+    width: 100%;
+    height: 100px;
+}
+
+.btnP{
+    width: 40%;
+    height: 45px;
+    background-color: #0894A9;
+    color: white;
+    font-size: 20px;
+    font-family: 'Fenix', serif;
+    cursor: pointer;
+    border-color: transparent;
+    margin-top: 50px;
+    margin-left: 30%;
+}
+
+
+}

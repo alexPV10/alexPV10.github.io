@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=DM+Serif+Text&display=swap');
+
+/*************************************************************/
+/**************** SEGUNDA PAGINA******************************/
+
+
+#pgDos{
+    width: 100%;
+    height: calc( 100vh - 110px);
+    background: white;
+}
+
+h1{
+    font-family: 'Changa One', cursive;
+    text-align: center;
+    margin: 30px;
+    font-size: 45px;
+}
+
+.opciones{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+/* BOTONES DE IDA O VUELTA*/
+#carreraMateria1{
+    width: 12%;
+    height: 30px;
+    margin-left: 100px;
+    justify-content: center;
+    display: flex;
+    padding: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+
+#carreraMateria2{
+    width: 12%;
+    height: 30px;
+    background: #0894A9;
+    color: white;
+    margin-left: 10px;
+    justify-content: center;
+    display: flex;
+    padding: auto;
+    border-radius: 10px;
+}
+
+h3{
+    font-size: 20px;
+    font-family: 'DM Serif Text', serif;
+}
+
+ /*****/
+.boletos{
+    width: 90%;
+    height: 350px;
+    background: #0894A9;
+    margin-left: 5%;
+}
+
+.bo-uno{
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+
+.bo-dos{
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+
+.bo-tres{
+    width: 100%;
+    height: 40%;
+}
+
+/**** CAJAS DE ESCRITURA ****/
+.bo-uno .group-container{
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 3%;
+}
+
+.bo-dos .group-container{
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 3%;
+
+}
+
+
+.bo-uno .group-container input{
+    width: 95%;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 15px;
+    border-color: transparent;
+    color: #4EAFFD;
+    font-family: 'DM Serif Text', serif;
+    font-size: 18px;
+
+}
+
+.bo-dos .group-container > input{
+    width: 95%;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 15px;
+    border-color: transparent;
+    color: #4EAFFD;
+    font-family: 'DM Serif Text', serif;
+    font-size: 18px;
+
+}
+
+/***** LETRAS DE ADENTRO *****/
+
+
+::placeholder{
+    color: #4EAFFD;/*color para las letras que estan de indicadoras*/
+}
+
+.group-container-B{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+
+/***** BOTON BUSCAR *****/
+.btn{
+    padding: 10px 70px;/*para el boton enviar*/
+    color: #0894A9;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;/*al pasar el raton aparecera la mano*/
+    border: 0;
+    background: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-left: 42%;
+
+
+}
+
+.btn:hover{
+    color: #ffff;
+    background-color: #131c46;
+}
+
+
+@media screen and (max-width: 952px){
+
+    .opciones{
+        width: 100%;
+        height: 80px;
+        display: flex;
+    }
+
+    #carreraMateria1{
+        width: 30%;
+        height: 30px;
+        margin-left: 20%;
+        display: flex;
+        padding: auto;
+        border: 1px solid black;
+        border-radius: 10px;
+    
+    }
+
+    #carreraMateria2{
+        width: 30%;
+        height: 30px;
+        background: #0894A9;
+        color: white;
+        display: flex;
+        padding: auto;
+        border-radius: 10px;
+        margin-right: 20%;
+    }
+
+    .boletos{
+        width: 90%;
+        height: 370px;
+        background: #0894A9;
+        display: block;
+
+    }
+
+    .bo-uno{
+        width: 100%;
+        height: 36%;
+        display: block;
+        padding-top: 1px;
+    }
+    
+    .bo-dos{
+        width: 100%;
+        height: 36%;
+        display: block;
+    }
+
+    .bo-tres{
+        width: 100%;
+        height: 28%;
+    }
+
+    
+
+    .btn{
+        padding: 10px 70px;/*para el boton enviar*/
+        color: #0894A9;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+        cursor: pointer;/*al pasar el raton aparecera la mano*/
+        border: 0;
+        background: white;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-top: 5px;
+        margin-left: 36%;
+        margin-right: auto;
+    
+    }
+    .bo-uno .group-container{
+        width: 50%;
+        margin-left: 5%;
+    }
+    
+    .bo-dos .group-container{
+        width: 50%;
+        margin-top: 25px;
+        margin-left: 5%;
+    
+    }
+    
+    .bo-uno .group-container input{
+        width: 175%;
+        height: 40px;
+        padding-left: 20px;
+        border-radius: 15px;
+        border-color: transparent;
+        color: #4EAFFD;
+        font-family: 'DM Serif Text', serif;
+        font-size: 18px;
+    
+    }
+    
+    .bo-dos .group-container > input{
+        width: 175%;
+        height: 40px;
+        padding-left: 20px;
+        border-radius: 15px;
+        border-color: transparent;
+        color: #4EAFFD;
+        font-family: 'DM Serif Text', serif;
+        font-size: 18px;
+    
+    }
+
+    
+}
+
+
+/************** CELULARES ****************/
+
+@media screen and (max-width: 500px){
+
+    .btn{
+        padding: 10px 70px;/*para el boton enviar*/
+        color: #0894A9;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+        cursor: pointer;/*al pasar el raton aparecera la mano*/
+        border: 0;
+        background: white;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-top: 8px;
+        margin-left: 25%;
+    
+    
+    }
+
+
+}

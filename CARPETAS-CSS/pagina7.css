@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Fenix&display=swap');
+/*************************************************************/
+/**************** Septima PAGINA******************************/
+
+#pgSeptimo{
+    width: 100%;
+    height: calc(125vh - 110px);
+    padding-top: 30px;
+}
+
+
+
+.Contenedor2{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.paquete1{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+
+.Imagen2{
+    width: 100%;
+    height: 190px;
+    margin-bottom: 24px;
+    cursor: pointer;
+    
+}
+
+.Imagen2 img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+/*////////////////*/
+.Aeropuertos{
+    width: 100%;
+    height: 400px;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+
+}
+.Aeropuertos h2{
+    color: #0CB0F6;
+    font-family: 'Fenix', serif;
+    font-size: 20px;
+}
+
+.Contenedor2 .Aeropuertos p{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Fenix', serif;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 952px){
+
+    #pgSeptimo{
+        width: 100%;
+        height: calc(170vh - 110px);
+        margin-top: 30px;
+    }
+
+
+    .Contenedor2{
+        width: 90%;
+        height: 95%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .paquete1{
+        width: 30%;
+        height: 100%;
+        background-color: white;
+    }
+
+    .Imagen2{
+        width: 100%;
+        height: 210px;
+        margin-bottom: 24px;
+        cursor: pointer;
+        
+    }
+
+    .Imagen2 img{
+        width: 100%;
+        height: 100%;
+        
+        
+    }
+
+    /*////////////////*/
+    .Contenedor2 .Aeropuertos{
+        width: 100%;
+        height: 665px;
+        background-color: #F5F5F5;
+        text-align: center;
+        padding: 16px;
+        border: 1px solid black;
+
+    }
+    .Aeropuertos h2{
+        color: #0CB0F6;
+        font-family: 'Fenix', serif;
+        font-size: 20px;
+    }
+
+    .Contenedor2 .Aeropuertos p{
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Fenix', serif;
+        font-size: 20px;
+    }
+
+    .Contenedor2 #pla-op{
+        text-align: justify;
+        margin: auto;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 657px){
+    #pgSeptimo{
+        width: 100%;
+        height: calc(315vh - 110px);
+    }
+
+    .Contenedor2{
+        width: 90%;
+        height: 93%;
+        margin-left: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .Contenedor2 .paquete1{
+        width: 90%;
+        height: 420px;
+        background-color: white;
+        padding: 0;
+        margin-bottom: 200px;
+    }
+
+    .Contenedor2 .Imagen2{
+        width: 100%;
+        height: 220px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+    .Contenedor2 .Aeropuertos{
+        width: 100%;
+        height: 345px;
+        background-color: #F5F5F5;
+        text-align: center;
+        border: 1px solid black;
+
+    }
+    
+    
+    
+
+}
+
